@@ -1,0 +1,15 @@
+id: QmWemC37WTwWbDSLm6wYmdpie3fqTJjMfh8NSS9oUU5gmV
+description: ""
+tags: []
+source: libraries/backend
+trigger:
+    type: https
+    method: GET
+    paths:
+        - /health
+domains:
+    - gloabl
+execution:
+    timeout: 100s
+    memory: 10MB
+    call: health

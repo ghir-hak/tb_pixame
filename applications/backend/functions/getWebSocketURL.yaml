@@ -1,0 +1,15 @@
+id: QmbqJWW5tYxYEbXUJrqoyo244tC5BQipZGLHnfLnnwoNQe
+description: ""
+tags: []
+source: libraries/backend
+trigger:
+    type: https
+    method: GET
+    paths:
+        - /getWebSocketURL
+domains:
+    - gloabl
+execution:
+    timeout: 100s
+    memory: 10MB
+    call: getWebSocketURL

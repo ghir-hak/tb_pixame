@@ -1,0 +1,15 @@
+id: Qmc2xFtDF3A2dt6ysgtGqsrfMTS5BrUfyPCh9cDYGBHhEZ
+description: ""
+tags: []
+source: libraries/backend
+trigger:
+    type: https
+    method: POST
+    paths:
+        - /drawPixel
+domains:
+    - gloabl
+execution:
+    timeout: 100s
+    memory: 10MB
+    call: drawPixel

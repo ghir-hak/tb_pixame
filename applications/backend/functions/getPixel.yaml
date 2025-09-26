@@ -1,0 +1,15 @@
+id: QmULBVK33aq4tZJzbYKgz5tLZtj6mCq4tcU45XxFpS6KPP
+description: ""
+tags: []
+source: libraries/backend
+trigger:
+    type: https
+    method: GET
+    paths:
+        - /getPixel
+domains:
+    - gloabl
+execution:
+    timeout: 100s
+    memory: 10MB
+    call: getPixel

@@ -1,0 +1,15 @@
+id: QmfC4JDdyyi58BXs213TRG42mxk21HgvGzfgd2nPb5rfrN
+description: ""
+tags: []
+source: libraries/backend
+trigger:
+    type: https
+    method: POST
+    paths:
+        - /sendMessage
+domains:
+    - gloabl
+execution:
+    timeout: 100s
+    memory: 10MB
+    call: sendMessage

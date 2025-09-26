@@ -1,0 +1,15 @@
+id: QmQV5ZArstdXFcXnPpMeMruZPeSLKKgMKxurxuNRSM7ppn
+description: ""
+tags: []
+source: libraries/backend
+trigger:
+    type: https
+    method: GET
+    paths:
+        - /getMessages
+domains:
+    - gloabl
+execution:
+    timeout: 100s
+    memory: 10MB
+    call: getMessages

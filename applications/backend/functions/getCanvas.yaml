@@ -1,0 +1,15 @@
+id: Qmat8k2vD6gSJBeCwjtAYE2o5kmTCneerAEy8iRmHSVYNf
+description: ""
+tags: []
+source: libraries/backend
+trigger:
+    type: https
+    method: GET
+    paths:
+        - /getCanvas
+domains:
+    - gloabl
+execution:
+    timeout: 100s
+    memory: 10MB
+    call: getCanvas
